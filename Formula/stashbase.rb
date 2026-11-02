@@ -1,19 +1,19 @@
 class Stashbase < Formula
   desc "The official Stashbase CLI"
   homepage "https://stashbase.dev"
-  version "0.25.0"
+  version "0.26.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/stashbase/cli/releases/download/v0.25.0/stashbase-0.25.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e043efcc72f6aff63421b23c61f9f5c87997f661cd7eb3cd32ab3d90fad2b597"
+      url "https://github.com/stashbase/cli/releases/download/v0.26.0/stashbase-0.26.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3a87feec3e272ec0c3d2b3e1fcf7a9d479bcd11f73931c9aa440f1a8c1c8109e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/stashbase/cli/releases/download/v0.25.0/stashbase-0.25.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e40bbccdc0e4842efbadb0a847f3e0e575e7e7a9e0e4ae62667bf412dae73dc3"
+      url "https://github.com/stashbase/cli/releases/download/v0.26.0/stashbase-0.26.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6c7ac83621e78d69447cee22ffd6b49f43d495494179c885ca20582e222a896e"
     end
   end
 
